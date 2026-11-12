@@ -1,0 +1,10 @@
+{
+    "name": "seo-audit-crawler",
+    "version": "0.1.0",
+    "type": "module",
+    "description": "Crawls a website and audits every page for technical and on-page SEO issues.",
+    "engines": { "node": ">=22" },
+    "dependencies": { "apify": "^3.7.0", "cheerio": "^1.0.0" },
+    "scripts": { "start": "node ./src/main.js", "test": "echo \"No tests\" && exit 0" },
+    "license": "ISC"
+}
